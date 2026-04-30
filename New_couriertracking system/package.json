@@ -1,0 +1,19 @@
+{
+  "name": "courier-tracking-system",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "preview": "npm run start --workspace backend",
+    "server": "npm run dev --workspace backend",
+    "client": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

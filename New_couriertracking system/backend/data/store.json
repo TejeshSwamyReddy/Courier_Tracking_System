@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "_id": "67aa25d3-3ac7-43d7-9abd-63a0ddd33a1f",
+      "name": "System Admin",
+      "email": "admin@courierflow.com",
+      "password": "$2a$10$XOnrxHGioI4U7LPiia7nlu1XmvxJuo.KWwun/WCcTZjirqLe84vMe",
+      "role": "admin",
+      "isActive": true,
+      "lastLoginAt": "2026-04-30T03:53:32.747Z",
+      "createdAt": "2026-04-27T08:28:30.796Z",
+      "updatedAt": "2026-04-30T03:53:32.747Z"
+    },
+    {
+      "_id": "1416a281-0165-4463-9879-db6a193fbdf9",
+      "name": "tejesh",
+      "email": "tejesh@gmail.com",
+      "password": "$2a$10$nQxhuyjOGvIYGcpT3fqVqOQt4JAJC5agaIqXto1fPI2zZBLgR96aO",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-27T08:32:27.925Z",
+      "updatedAt": "2026-04-27T08:32:27.925Z"
+    },
+    {
+      "_id": "4ade3697-8499-4219-b0a0-e1843a330363",
+      "name": "jaffa reddy",
+      "email": "jaffa@gmail.com",
+      "password": "$2a$10$4vgS7GA2c1DxT5QZwU1f5eSAQWfPQtX0xBDaIhjJ/nUJYfGyCSApK",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-29T12:24:31.994Z",
+      "updatedAt": "2026-04-29T12:24:31.994Z"
+    },
+    {
+      "_id": "75d8ba0a-3d91-49b9-b626-34fd726751d2",
+      "name": "Jaffa Reddy",
+      "email": "jaffa69@gmail.com",
+      "password": "$2a$10$i7mti0sZLKJL2ggjCX6Q1OpcjHbLT.3jc9eUvAaLu4S//5PfkOdkW",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-29T12:51:31.021Z",
+      "updatedAt": "2026-04-29T12:51:31.021Z"
+    },
+    {
+      "_id": "49d56361-8930-4dce-ac62-fc6ccc625456",
+      "name": "Tejesh Reddy",
+      "email": "tejesh123@gmail.com",
+      "password": "$2a$10$jvZlt7DV/bon0dsij4hMu.xaEnGmTrzBAPXC7W6LerXB5eACKIeo2",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-29T13:02:11.452Z",
+      "updatedAt": "2026-04-29T13:02:11.452Z"
+    },
+    {
+      "_id": "d86cc199-7a03-4672-bea8-e896a943faa4",
+      "name": "jAFFA rEDDY",
+      "email": "jaffa6996969@gmail.com",
+      "password": "$2a$10$9yzfbR6hQtg45Jj3ebevNe1vpPbagh/p0DWpg9do77UilQ5jskRPe",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-29T15:07:27.761Z",
+      "updatedAt": "2026-04-29T15:07:27.761Z"
+    },
+    {
+      "_id": "72a38ea9-73a4-4786-802e-4f4768de1a81",
+      "name": "tejesh reddy",
+      "email": "tejeshbotta123@gmail.com",
+      "password": "$2a$10$IO7.xM518XWL8l/PnFCqHepswNbJbbcpNnnqXH0v0bmx5xdNSbZf2",
+      "role": "user",
+      "isActive": true,
+      "lastLoginAt": null,
+      "createdAt": "2026-04-30T03:47:30.136Z",
+      "updatedAt": "2026-04-30T03:47:30.136Z"
+    }
+  ],
+  "shipments": [
+    {
+      "_id": "e137463e-f1b0-499e-bcf7-57bc07bf7d14",
+      "trackingId": "CTS-MOKYABL7-CC22YW",
+      "userId": "72a38ea9-73a4-4786-802e-4f4768de1a81",
+      "sender": {
+        "name": "teja",
+        "phone": "6302263580",
+        "email": "btsr143143@gmail.com",
+        "address": "mangalagiri"
+      },
+      "receiver": {
+        "name": "sidharatha",
+        "phone": "9949897807",
+        "email": "sr538466@gmail.com",
+        "address": "srm ap"
+      },
+      "packageWeight": 5,
+      "deliveryType": "Express",
+      "price": 810,
+      "estimatedDelivery": "2026-05-01T03:54:58.224Z",
+      "status": "Order Placed",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "message": "Your booking has been received and is being prepared for pickup.",
+          "updatedByRole": "user",
+          "location": "Origin Hub",
+          "timestamp": "2026-04-30T03:54:58.224Z"
+        }
+      ],
+      "createdAt": "2026-04-30T03:54:58.229Z",
+      "updatedAt": "2026-04-30T03:54:58.229Z"
+    }
+  ]
+}
